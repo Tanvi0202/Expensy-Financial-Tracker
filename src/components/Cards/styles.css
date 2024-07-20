@@ -1,0 +1,27 @@
+.my-card{
+    box-shadow: var(--shadow);
+    margin: 1.2rem;
+    border-radius: 1rem;
+    min-width: 400px;
+    flex: 1;
+    margin-top: 0.2rem;
+    
+}
+
+h2{
+  color: rgba(0, 0, 0, .85);
+    font-weight: 500;
+    margin-bottom: .5em;
+    margin-top: 0;
+}
+.my-row{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  flex-Wrap: wrap;
+  gap: 16px;
+}
+.my-card p{
+  margin:0;
+}
